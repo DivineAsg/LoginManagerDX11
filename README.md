@@ -1,38 +1,40 @@
 # LoginManagerDX11
-# Paladins Account Manager & Auto-Login
 
-Um gestor de contas de alto desempenho e injetável para **Paladins**, desenvolvido em **C++** com interface **ImGui**. Este projeto foi criado para facilitar a alternância entre múltiplas contas, automatizando o processo de login de forma rápida e segura através de hooks de DirectX 11.
+## Paladins Account Manager & Auto-Login
 
-## 🚀 Funcionalidades
+A high-performance account manager for **Paladins**, developed in **C++** with an **ImGui**-based interface. This project was designed to simplify switching between multiple accounts by automating the login process through DirectX 11 hooks.
 
-- **Gestão de Contas:** Adicione, remova e organize suas credenciais diretamente pela interface in-game.
-- **Auto-Login (Flash Mode):** Sistema de login automatizado que insere credenciais e confirma o acesso em milissegundos.
-- **Importação em Massa:** Importe listas de contas a partir de arquivos `.txt` (formato `usuario:senha`).
-- **Interface Moderna:** UI intuitiva construída com ImGui, suporte a transparência e transições suaves.
-- **Segurança Local:** Armazenamento local de contas em `accounts.txt` para fácil backup.
-- **Sistema de Injeção:** Funciona como uma DLL injetável, utilizando hooks de `Present` e `ResizeBuffers` para renderização.
+## 🚀 Features
 
-## 🛠️ Tecnologias Utilizadas
+- **Account Management:** Add, remove, and organize account credentials directly through the in-game interface.
+- **Auto Login (Flash Mode):** Automated login system that quickly fills in credentials and confirms access.
+- **Bulk Import:** Import account lists from `.txt` files using the `username:password` format.
+- **Modern Interface:** Clean and intuitive UI built with ImGui, featuring transparency and smooth transitions.
+- **Local Storage:** Account information is stored locally in `accounts.txt` for easy backup and management.
+- **DLL-Based Integration:** Uses DirectX 11 `Present` and `ResizeBuffers` hooks for rendering and integration.
 
-- **Linguagem:** C++
+## 🛠️ Technologies Used
+
+- **Language:** C++
 - **Graphics API:** DirectX 11 (D3D11)
-- **UI Framework:** [Dear ImGui](https://github.com/ocornut/imgui)
-- **Hooking:** [Microsoft Detours](https://github.com/microsoft/detours)
+- **UI Framework:** Dear ImGui
+- **Hooking Library:** Microsoft Detours
 - **Window Management:** Win32 API
 
-## 📋 Como Compilar
+## 📋 Building
 
-1. Clone o repositório.
-2. Certifique-se de ter o **Visual Studio 2022** instalado com suporte a C++.
-3. Instale as dependências:
-   - **Microsoft Detours** (via vcpkg ou manual).
-   - **Dear ImGui** (arquivos fonte incluídos no projeto).
-4. Abra o arquivo `.sln` e compile em modo **Release | x64**.
-5. O resultado será uma DLL pronta para ser injetada no processo do jogo.
+1. Clone the repository.
+2. Make sure **Visual Studio 2022** with C++ development tools is installed.
+3. Install the required dependencies:
+   - **Microsoft Detours** (via vcpkg or manual installation).
+   - **Dear ImGui** (source files included in the project).
+4. Open the `.sln` file and build the project in **Release | x64** mode.
+5. The output will be a DLL ready to be loaded into the target process.
 
-## ⚠️ Aviso Legal (Disclaimer)
+## ⚠️ Disclaimer
 
-Este projeto foi desenvolvido apenas para fins educacionais e de conveniência pessoal. O uso dessa ferramenta não viola nenhum termo da hi-rez e não tem chance de banimento.
+This project was created for educational purposes and personal convenience. Users are responsible for ensuring compliance with any applicable game policies, terms of service, and local regulations. The author assumes no responsibility for misuse of this software.
 
----
-Desenvolvido por [DivineAsg]
+## 👤 Author
+
+Made by **DivineAsg**
