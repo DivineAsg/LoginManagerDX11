@@ -3,7 +3,7 @@
 
 Um gestor de contas de alto desempenho e injetável para **Paladins**, desenvolvido em **C++** com interface **ImGui**. Este projeto foi criado para facilitar a alternância entre múltiplas contas, automatizando o processo de login de forma rápida e segura através de hooks de DirectX 11.
 
-## ��� Funcionalidades
+## 🚀 Funcionalidades
 
 - **Gestão de Contas:** Adicione, remova e organize suas credenciais diretamente pela interface in-game.
 - **Auto-Login (Flash Mode):** Sistema de login automatizado que insere credenciais e confirma o acesso em milissegundos.
@@ -12,7 +12,7 @@ Um gestor de contas de alto desempenho e injetável para **Paladins**, desenvolv
 - **Segurança Local:** Armazenamento local de contas em `accounts.txt` para fácil backup.
 - **Sistema de Injeção:** Funciona como uma DLL injetável, utilizando hooks de `Present` e `ResizeBuffers` para renderização.
 
-## ���️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **Linguagem:** C++
 - **Graphics API:** DirectX 11 (D3D11)
@@ -20,7 +20,7 @@ Um gestor de contas de alto desempenho e injetável para **Paladins**, desenvolv
 - **Hooking:** [Microsoft Detours](https://github.com/microsoft/detours)
 - **Window Management:** Win32 API
 
-## ��� Como Compilar
+## 📋 Como Compilar
 
 1. Clone o repositório.
 2. Certifique-se de ter o **Visual Studio 2022** instalado com suporte a C++.
@@ -32,7 +32,7 @@ Um gestor de contas de alto desempenho e injetável para **Paladins**, desenvolv
 
 ## ⚠️ Aviso Legal (Disclaimer)
 
-Este projeto foi feito para uso legal, não viola termos da hi-rez, não há nenhum risco de banimento.
+Este projeto foi desenvolvido apenas para fins educacionais e de conveniência pessoal. O uso dessa ferramenta não viola nenhum termo da hi-rez e não tem chance de banimento.
 
 ---
-Desenvolvido por DivineAsg
+Desenvolvido por [DivineAsg]
